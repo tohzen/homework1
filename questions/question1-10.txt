@@ -1,0 +1,24 @@
+Questionnaire: 
+
+1. What are javascript functions?
+
+2. Explain call-back functions in your own words.
+
+3. Why are javascript functions first-class citizens? (in your own words, please)
+
+4. Explain javascript Closures in your own words.
+
+5. When/Why do you use the .then() method of a promise?
+
+6. When/Why do you use the .catch() method of a promise?
+
+7. What is the spread operator?
+
+
+8. What is the rest operator?
+
+
+9. What is the difference between the rest operator and the spead operator?
+
+
+10. What is Object and Array Destructuring in javascript?
