@@ -1,6 +1,31 @@
 const {fetchData} = require('../fancyLibrary')
 
 
+fetchData()
+    .then((value)=>console.log(value))
+    .catch(error=>console.log(error))
+
+
+
+    async function callFunction(){
+        try {
+            const value = await fetchData()
+            console.log(value)
+        
+            
+        } catch (error) {
+            console.log(error)
+        }
+    }
+    callFunction()
+
+
+
+
+
+
+
+
 // //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Promises:
 // fetchData that returns a promise.

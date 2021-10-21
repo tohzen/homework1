@@ -19,9 +19,12 @@ var user = {
   },
   
  };
- const {fav} = user;
+ 
+ const {favoriteThings:{food}} = user
+
+const [food1, food2]=food
  
 
- console.log(fav)
+ console.log(food)
 
 // Once you have grabbed the favorite foods. Descontrusct the food array to grab only the first 2 values.
