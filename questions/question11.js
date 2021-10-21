@@ -8,6 +8,8 @@
 // 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+
 var user = {
   name: 'pete',
   age: '32',
@@ -15,7 +17,11 @@ var user = {
     food: ['pizza', 'tacos', 'burgers', 'italian'],
     movies: [],
   },
+  
  };
+ const {fav} = user;
  
+
+ console.log(fav)
 
 // Once you have grabbed the favorite foods. Descontrusct the food array to grab only the first 2 values.

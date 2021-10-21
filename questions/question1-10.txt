@@ -1,24 +1,32 @@
 Questionnaire: 
 
 1. What are javascript functions?
+A javascript function is an object we create to include a name, parameters with specific syntax and sometimes way more stuff! It is basically a program in the program to do simple things quickly and we can call reference the function later in our code. 
 
 2. Explain call-back functions in your own words.
+A callback is when we call a function as an arguement or parameter in another function. To clarify, the function passed IS the callback.
 
 3. Why are javascript functions first-class citizens? (in your own words, please)
+They are first-class citizens because you can store functions in variables and pass them to other functions etc. 
 
 4. Explain javascript Closures in your own words.
+Its all about scope. We can use just one large function and create all the variables or other functions inside it. And anywhere inside that "local scope" we can use it. Or you could lean towards using the global scope instead. But a closure is basically a way to access the outer function from the inner. 
 
 5. When/Why do you use the .then() method of a promise?
+we would want to use .then for things that require async like API calls.
 
 6. When/Why do you use the .catch() method of a promise?
+catch is used for handling errors.
 
 7. What is the spread operator?
+it lets us take pieces of an iterable object like an array and spread them out into individual parts.
 
 
 8. What is the rest operator?
+It is a parameter that lets us use an indefinite number of arguments as an array. like if we dont know how many numbers or names someone will input as arguments into our function 
 
-
-9. What is the difference between the rest operator and the spead operator?
-
+9. What is the difference between the rest operator and the spread operator?
+Rest operators have to be at the end of the last argument. Spread can be used even as the first argument.
 
 10. What is Object and Array Destructuring in javascript?
+Destructuring allows us to "unpack" or take apart the values or properties and use them as individual variables.
